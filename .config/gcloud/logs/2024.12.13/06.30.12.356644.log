@@ -1,0 +1,10 @@
+2024-12-13 06:30:12,380 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2024-12-13 06:30:12,390 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2024-12-13 06:30:12,394 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--format: "value(projectNumber)", PROJECT_ID_OR_NUMBER: "sandbox-tech-project-bv05"]
+2024-12-13 06:30:12,437 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2024-12-13 06:30:12,867 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/sandbox-tech-project-bv05?alt=json HTTP/1.1" 200 None
+2024-12-13 06:30:12,872 DEBUG    root            Chosen display Format:default value(projectNumber)
+2024-12-13 06:30:12,873 INFO     root            Display format: "default value(projectNumber)"
+2024-12-13 06:30:12,901 INFO     ___FILE_ONLY___ 209675194413
+
+2024-12-13 06:30:12,902 DEBUG    root            SDK update checks are disabled.
